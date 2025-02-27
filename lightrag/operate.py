@@ -391,29 +391,22 @@ async def extract_entities(
         chunk_key = chunk_key_dp[0]
         chunk_dp = chunk_key_dp[1]
         content = chunk_dp["content"]
-        print("chunk_key:",chunk_key)
-        print("chunk_dp:",chunk_dp)
-        print("content:",content)
+
         # hint_prompt = entity_extract_prompt.format(**context_base, input_text=content)
         # prompt,用来生成content中的实体等，这里面包含给好的两个例子和待处理的content
         hint_prompt = entity_extract_prompt.format(
             **context_base, input_text="{input_text}"
         ).format(**context_base, input_text=content)
-        print("hint_prompt:",hint_prompt)
         final_result = await _user_llm_func_with_cache(hint_prompt)
-        print("final_result:",final_result)
         history = pack_user_ass_to_openai_messages(hint_prompt, final_result)
-        print("history:",history)
-        print("entity_extract_max_gleaning",entity_extract_max_gleaning)
         for now_glean_index in range(entity_extract_max_gleaning):
-            print("continue_prompt",continue_prompt)
             glean_result = await _user_llm_func_with_cache(
                 continue_prompt, history_messages=history
             )
-            print("glean_result:",glean_result)
+
             history += pack_user_ass_to_openai_messages(continue_prompt, glean_result)
             final_result += glean_result
-            print("final_result:",final_result)
+
             if now_glean_index == entity_extract_max_gleaning - 1:
                 break
 
@@ -464,8 +457,6 @@ async def extract_entities(
             end="",
             flush=True,
         )
-        print("maybe_nodes:",dict(maybe_nodes))
-        print("maybe_edges:",dict(maybe_edges))
         return dict(maybe_nodes), dict(maybe_edges)
 
     # 这里接的第336行的内容
@@ -482,7 +473,6 @@ async def extract_entities(
     maybe_nodes = defaultdict(list)
     maybe_edges = defaultdict(list)
     # 处理结点和边
-    print("results:",results)   
     for m_nodes, m_edges in results:
         for k, v in m_nodes.items():
             maybe_nodes[k].extend(v)
@@ -493,8 +483,6 @@ async def extract_entities(
             maybe_edges[(img,k)].extend([{"src_id":img,"tgt_id":k,"weight":5.0,"description":f"The image contains {k}","keywords":"contains","source_id":compute_mdhash_id(img,prefix="-")}])
         maybe_nodes[img].extend([{"entity_name":img,"entity_type":"image","description":content,"source_id":compute_mdhash_id(img,prefix="ent-")}])
     logger.info("Inserting entities into storage...")
-    print("maybe_nodes:",dict(maybe_nodes))
-    print("maybe_edges:",dict(maybe_edges))
     all_entities_data = []
     for result in tqdm_async(
         asyncio.as_completed(
@@ -508,7 +496,6 @@ async def extract_entities(
         unit="entity",
     ):
         all_entities_data.append(await result)
-    print("all_entities_data:",all_entities_data)
     logger.info("Inserting relationships into storage...")
     all_relationships_data = []
     for result in tqdm_async(
@@ -525,7 +512,6 @@ async def extract_entities(
         unit="relationship",
     ):
         all_relationships_data.append(await result)
-    print("all_relationships_data:",all_relationships_data)
     if not len(all_entities_data) and not len(all_relationships_data):
         logger.warning(
             "Didn't extract any entities and relationships, maybe your LLM is not working"
@@ -563,7 +549,6 @@ async def extract_entities(
             for dp in all_relationships_data
         }
         await relationships_vdb.upsert(data_for_vdb)
-    print("knowledge_graph_inst:",knowledge_graph_inst)
     return knowledge_graph_inst
 
 
@@ -605,10 +590,8 @@ async def kg_query(
     # LLM generate keywords
     kw_prompt_temp = PROMPTS["keywords_extraction"]
     kw_prompt = kw_prompt_temp.format(query=query, examples=examples, language=language)
-    print("kw_prompt",kw_prompt)
     result = await use_model_func(kw_prompt, keyword_extraction=True)
     logger.info("kw_prompt result:")
-    print(result)
     try:
         # json_text = locate_json_string_body_from_string(result) # handled in use_model_func
         match = re.search(r"\{.*\}", result, re.DOTALL)
@@ -654,7 +637,6 @@ async def kg_query(
         text_chunks_db,
         query_param,
     )
-    print("context:",context)
     if query_param.only_need_context:
         return context
     if context is None:
@@ -663,8 +645,6 @@ async def kg_query(
     sys_prompt = sys_prompt_temp.format(
         context_data=context, response_type=query_param.response_type
     )
-    print("sys_prompt:",sys_prompt)
-    print("query_param:",query_param)
     if query_param.only_need_prompt:
         return sys_prompt
     response = await use_model_func(
@@ -696,7 +676,6 @@ async def kg_query(
             mode=query_param.mode,
         ),
     )
-    print("response:",response)
     return response
 
 
