@@ -1,0 +1,229 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d6" for="edge" attr.name="source_id" attr.type="string" />
+  <key id="d5" for="edge" attr.name="keywords" attr.type="string" />
+  <key id="d4" for="edge" attr.name="description" attr.type="string" />
+  <key id="d3" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d2" for="node" attr.name="source_id" attr.type="string" />
+  <key id="d1" for="node" attr.name="description" attr.type="string" />
+  <key id="d0" for="node" attr.name="entity_type" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="&quot;WINDING STREAM&quot;">
+      <data key="d0">"GEO"</data>
+      <data key="d1">"The winding stream is a natural feature of the village, flowing through the village and under the bridge."</data>
+      <data key="d2">chunk-93fb037a9b290f5da4e87566e3756b68</data>
+    </node>
+    <node id="&quot;BRIDGE&quot;">
+      <data key="d0">"GEO"</data>
+      <data key="d1">"The bridge is a central element in the story, symbolizing a link between worlds and a place of significant emotional connection for Li Xiaomo."</data>
+      <data key="d2">chunk-93fb037a9b290f5da4e87566e3756b68</data>
+    </node>
+    <node id="&quot;STAR LOTUS&quot;">
+      <data key="d0">"CATEGORY"</data>
+      <data key="d1">"Star Lotus is a special kind of lotus that is said to bloom only on a full moon night, mentioned as a goal of Li Xiaomo and his father's journey across the bridge."&lt;SEP&gt;"Star Lotus is a symbol of the special connection between Li Xiaomo and his father, representing a goal of their journey."</data>
+      <data key="d2">chunk-93fb037a9b290f5da4e87566e3756b68</data>
+    </node>
+    <node id="&quot;GRASSLAND&quot;">
+      <data key="d0">"GEO"</data>
+      <data key="d1">"The grassland is the place Li Xiaomo is pulled to after falling into the lake, described as starlit and with distant mountains in a silver glow."</data>
+      <data key="d2">chunk-93fb037a9b290f5da4e87566e3756b68</data>
+    </node>
+    <node id="&quot;STAFF&quot;">
+      <data key="d0">"CATEGORY"</data>
+      <data key="d1">"The staff held by the traveling bridge craftsman is an object that adds to the mystique of the character and his connection to Li Xiaomo's paintings."</data>
+      <data key="d2">chunk-93fb037a9b290f5da4e87566e3756b68</data>
+    </node>
+    <node id="&quot;TRAVELING BRIDGE CRAFTSMAN&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"The traveling bridge craftsman is a mysterious character who visits Li Xiaomo's studio and suggests that Li Xiaomo's bridges lead to unknown places."</data>
+      <data key="d2">chunk-93fb037a9b290f5da4e87566e3756b68</data>
+    </node>
+    <node id="&quot;SMALL HOUSE&quot;">
+      <data key="d0">"GEO"</data>
+      <data key="d1">"The small house is the destination Li Xiaomo reaches at the end of the bridge, where he finds a sketchbook depicting his bridges and a drawing of his father."</data>
+      <data key="d2">chunk-93fb037a9b290f5da4e87566e3756b68</data>
+    </node>
+    <node id="&quot;VILLAGERS&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"The villagers of the small town are part of Li Xiaomo's community, reacting to his painting and the story behind it."</data>
+      <data key="d2">chunk-93fb037a9b290f5da4e87566e3756b68</data>
+    </node>
+    <node id="&quot;FATHER&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"Li Xiaomo's father is the person who went missing after the incident on the bridge, deeply affecting Li Xiaomo."</data>
+      <data key="d2">chunk-93fb037a9b290f5da4e87566e3756b68</data>
+    </node>
+    <node id="&quot;FULL MOON NIGHT&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"The full moon night is the time when the Star Lotus is said to bloom, significant in the story of Li Xiaomo and his father."</data>
+      <data key="d2">chunk-93fb037a9b290f5da4e87566e3756b68</data>
+    </node>
+    <node id="&quot;PLUM RAIN SEASON&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"The plum rain season is the time when the incident on the bridge occurred, creating a specific mood in the story."</data>
+      <data key="d2">chunk-93fb037a9b290f5da4e87566e3756b68</data>
+    </node>
+    <node id="&quot;VAST LAKE&quot;">
+      <data key="d0">"GEO"</data>
+      <data key="d1">"The vast lake is located beyond the bridge and is mentioned as a destination for Li Xiaomo and his father, shrouded in mist and mystery."</data>
+      <data key="d2">chunk-93fb037a9b290f5da4e87566e3756b68</data>
+    </node>
+    <node id="&quot;SKETCHBOOK&quot;">
+      <data key="d0">"CATEGORY"</data>
+      <data key="d1">"The sketchbook found in the small house is a collection of Li Xiaomo's bridge paintings, representing his journey and memories."</data>
+      <data key="d2">chunk-93fb037a9b290f5da4e87566e3756b68</data>
+    </node>
+    <node id="&quot;ICY WATER&quot;">
+      <data key="d0">"GEO"</data>
+      <data key="d1">"The icy water is the water of the lake into which Li Xiaomo fell after slipping on the bridge, filled with panic and the sensation of being pulled toward the other side."</data>
+      <data key="d2">chunk-93fb037a9b290f5da4e87566e3756b68</data>
+    </node>
+    <node id="&quot;DRAWING&quot;">
+      <data key="d0">"CATEGORY"</data>
+      <data key="d1">"The drawing of a middle-aged man by the bridge is a significant image in the story, representing Li Xiaomo's father and his presence in the paintings."</data>
+      <data key="d2">chunk-93fb037a9b290f5da4e87566e3756b68</data>
+    </node>
+    <node id="&quot;PATTERN&quot;">
+      <data key="d0">"CATEGORY"</data>
+      <data key="d1">"The intricate patterns on the staff and possibly on the bridge are elements that contribute to the story's symbolism and the sense of mystery."</data>
+      <data key="d2">chunk-93fb037a9b290f5da4e87566e3756b68</data>
+    </node>
+    <node id="&quot;STONE BRIDGE&quot;">
+      <data key="d0">"GEO"</data>
+      <data key="d1">"The stone bridge is the bridge that Li Xiaomo and his father crossed, where the incident occurred that led to Li Xiaomo's painting obsession."</data>
+      <data key="d2">chunk-93fb037a9b290f5da4e87566e3756b68</data>
+    </node>
+    <node id="&quot;SMALL TOWN&quot;">
+      <data key="d0">"GEO"</data>
+      <data key="d1">"The small town is the setting where the story takes place, characterized by misty mornings and a winding stream with a bridge across it."</data>
+      <data key="d2">chunk-93fb037a9b290f5da4e87566e3756b68</data>
+    </node>
+    <node id="&quot;UNSEEN FORCE&quot;">
+      <data key="d0">"CATEGORY"</data>
+      <data key="d1">"The unseen force is the mysterious element that Li Xiaomo feels pulling him toward the other side of the bridge, adding to the story's magic."</data>
+      <data key="d2">chunk-93fb037a9b290f5da4e87566e3756b68</data>
+    </node>
+    <node id="&quot;MEMORY&quot;">
+      <data key="d0">"CATEGORY"</data>
+      <data key="d1">"Memory is a recurring theme in the story, representing Li Xiaomo's recollections of the incident and his father's love and protection."</data>
+      <data key="d2">chunk-93fb037a9b290f5da4e87566e3756b68</data>
+    </node>
+    <node id="&quot;LI XIAOMO&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"Li Xiaomo is a renowned painter in the village, known for his paintings with an indescribable vitality and his obsession with painting bridges."</data>
+      <data key="d2">chunk-93fb037a9b290f5da4e87566e3756b68</data>
+    </node>
+    <node id="&quot;REALITY&quot;">
+      <data key="d0">"CATEGORY"</data>
+      <data key="d1">"Reality is a concept in the story that Li Xiaomo struggles with, learning to reconcile his painting with the actual village and its life."</data>
+      <data key="d2">chunk-93fb037a9b290f5da4e87566e3756b68</data>
+    </node>
+    <node id="&quot;CROSSING TO THE OTHER SIDE&quot;">
+      <data key="d0">"CATEGORY"</data>
+      <data key="d1">"Crossing to the other side is a metaphorical concept in the story, symbolizing Li Xiaomo's emotional journey and resolution."</data>
+      <data key="d2">chunk-93fb037a9b290f5da4e87566e3756b68</data>
+    </node>
+    <edge source="&quot;BRIDGE&quot;" target="&quot;LI XIAOMO&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"Li Xiaomo's paintings are obsessed with bridges, which are central to his life and work, stemming from the incident with his father."|&gt;"obsession, emotional connection"</data>
+      <data key="d5">9</data>
+      <data key="d6">chunk-93fb037a9b290f5da4e87566e3756b68</data>
+    </edge>
+    <edge source="&quot;STAR LOTUS&quot;" target="&quot;LI XIAOMO&quot;">
+      <data key="d3">8.0</data>
+      <data key="d4">"Li Xiaomo is searching for the Star Lotus with his father, which represents a shared goal."|&gt;"goal, connection"</data>
+      <data key="d5">8</data>
+      <data key="d6">chunk-93fb037a9b290f5da4e87566e3756b68</data>
+    </edge>
+    <edge source="&quot;STAFF&quot;" target="&quot;LI XIAOMO&quot;">
+      <data key="d3">7.0</data>
+      <data key="d4">"The staff is an object given to Li Xiaomo by the traveling bridge craftsman, leading him to his discovery."|&gt;"mystery, guidance"</data>
+      <data key="d5">7</data>
+      <data key="d6">chunk-93fb037a9b290f5da4e87566e3756b68</data>
+    </edge>
+    <edge source="&quot;TRAVELING BRIDGE CRAFTSMAN&quot;" target="&quot;LI XIAOMO&quot;">
+      <data key="d3">8.0</data>
+      <data key="d4">"The traveling bridge craftsman provides Li Xiaomo with an explanation for his painting obsession, leading him to cross the bridge again."|&gt;"explanation, revelation"</data>
+      <data key="d5">8</data>
+      <data key="d6">chunk-93fb037a9b290f5da4e87566e3756b68</data>
+    </edge>
+    <edge source="&quot;SMALL HOUSE&quot;" target="&quot;LI XIAOMO&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"Li Xiaomo finds a connection to his paintings and his father in the small house at the end of the bridge, discovering his father's legacy."|&gt;"discovery, legacy"</data>
+      <data key="d5">9</data>
+      <data key="d6">chunk-93fb037a9b290f5da4e87566e3756b68</data>
+    </edge>
+    <edge source="&quot;VILLAGERS&quot;" target="&quot;LI XIAOMO&quot;">
+      <data key="d3">7.0</data>
+      <data key="d4">"Li Xiaomo is a member of the villagers, and his work is appreciated and influenced by them."|&gt;"community, appreciation"</data>
+      <data key="d5">7</data>
+      <data key="d6">chunk-93fb037a9b290f5da4e87566e3756b68</data>
+    </edge>
+    <edge source="&quot;FULL MOON NIGHT&quot;" target="&quot;LI XIAOMO&quot;">
+      <data key="d3">7.0</data>
+      <data key="d4">"The full moon night is the time when Li Xiaomo and his father were supposed to see the Star Lotus, adding a timeline to the story."|&gt;"timeline, event"</data>
+      <data key="d5">7</data>
+      <data key="d6">chunk-93fb037a9b290f5da4e87566e3756b68</data>
+    </edge>
+    <edge source="&quot;PLUM RAIN SEASON&quot;" target="&quot;LI XIAOMO&quot;">
+      <data key="d3">7.0</data>
+      <data key="d4">"The plum rain season is the weather condition when the incident occurred, adding a specific setting to the story."|&gt;"setting, incident"</data>
+      <data key="d5">7</data>
+      <data key="d6">chunk-93fb037a9b290f5da4e87566e3756b68</data>
+    </edge>
+    <edge source="&quot;SKETCHBOOK&quot;" target="&quot;LI XIAOMO&quot;">
+      <data key="d3">8.0</data>
+      <data key="d4">"Li Xiaomo's sketchbook contains his bridge paintings, which are a manifestation of his memories and emotions."|&gt;"manifestation, memory"</data>
+      <data key="d5">8</data>
+      <data key="d6">chunk-93fb037a9b290f5da4e87566e3756b68</data>
+    </edge>
+    <edge source="&quot;DRAWING&quot;" target="&quot;LI XIAOMO&quot;">
+      <data key="d3">8.0</data>
+      <data key="d4">"The drawing of Li Xiaomo's father is a part of the sketchbook, symbolizing the father's influence on Li Xiaomo."|&gt;"symbolism, influence"</data>
+      <data key="d5">8</data>
+      <data key="d6">chunk-93fb037a9b290f5da4e87566e3756b68</data>
+    </edge>
+    <edge source="&quot;PATTERN&quot;" target="&quot;LI XIAOMO&quot;">
+      <data key="d3">7.0</data>
+      <data key="d4">"The patterns on the staff are part of the story's mystery, contributing to the bridge's symbolism."|&gt;"symbolism, mystery"</data>
+      <data key="d5">7</data>
+      <data key="d6">chunk-93fb037a9b290f5da4e87566e3756b68</data>
+    </edge>
+    <edge source="&quot;STONE BRIDGE&quot;" target="&quot;LI XIAOMO&quot;">
+      <data key="d3">7.0</data>
+      <data key="d4">"Li Xiaomo's painting of the stone bridge is inspired by the incident that occurred there, where he fell into the lake."|&gt;"inspiration, personal history"</data>
+      <data key="d5">7</data>
+      <data key="d6">chunk-93fb037a9b290f5da4e87566e3756b68</data>
+    </edge>
+    <edge source="&quot;SMALL TOWN&quot;" target="&quot;LI XIAOMO&quot;">
+      <data key="d3">15.0</data>
+      <data key="d4">"Li Xiaomo is a resident of the small town, where he is a renowned painter and where the story unfolds."|&gt;"residence, life context"&lt;SEP&gt;"Li Xiaomo's paintings reflect the life and atmosphere of the small town, where he has lived and worked."|&gt;"representation, cultural context"</data>
+      <data key="d5">7&lt;SEP&gt;8</data>
+      <data key="d6">chunk-93fb037a9b290f5da4e87566e3756b68</data>
+    </edge>
+    <edge source="&quot;UNSEEN FORCE&quot;" target="&quot;LI XIAOMO&quot;">
+      <data key="d3">8.0</data>
+      <data key="d4">"The unseen force is a crucial element in Li Xiaomo's experience, symbolizing the mystical and emotional pull."|&gt;"mystery, emotional pull"</data>
+      <data key="d5">8</data>
+      <data key="d6">chunk-93fb037a9b290f5da4e87566e3756b68</data>
+    </edge>
+    <edge source="&quot;MEMORY&quot;" target="&quot;LI XIAOMO&quot;">
+      <data key="d3">8.0</data>
+      <data key="d4">"Li Xiaomo's memories are central to his painting and his emotional journey, influencing his work."|&gt;"memory, influence"</data>
+      <data key="d5">8</data>
+      <data key="d6">chunk-93fb037a9b290f5da4e87566e3756b68</data>
+    </edge>
+    <edge source="&quot;LI XIAOMO&quot;" target="&quot;REALITY&quot;">
+      <data key="d3">8.0</data>
+      <data key="d4">"Li Xiaomo's struggle with reality is a key part of his journey, as he moves from painting mysteries to painting the village."|&gt;"resolution, reconciliation"</data>
+      <data key="d5">8</data>
+      <data key="d6">chunk-93fb037a9b290f5da4e87566e3756b68</data>
+    </edge>
+    <edge source="&quot;LI XIAOMO&quot;" target="&quot;CROSSING TO THE OTHER SIDE&quot;">
+      <data key="d3">8.0</data>
+      <data key="d4">"Crossing to the other side represents Li Xiaomo's emotional and thematic resolution in the story."|&gt;"resolution, theme"</data>
+      <data key="d5">8</data>
+      <data key="d6">chunk-93fb037a9b290f5da4e87566e3756b68</data>
+    </edge>
+  </graph>
+</graphml>
