@@ -10,7 +10,7 @@ from .llm import (
     gpt_4o_mini_complete,
     openai_embedding,
 )
-from .operate import (
+from .operate2 import (
     chunking_by_token_size,
     extract_entities,
     # local_query,global_query,hybrid_query,
@@ -194,7 +194,6 @@ class LightRAG:
     doc_status_storage: str = field(default="JsonDocStatusStorage")
 
     def __post_init__(self):
-        print(self)
         log_file = os.path.join("lightrag.log")
         set_logger(log_file)
         logger.setLevel(self.log_level)

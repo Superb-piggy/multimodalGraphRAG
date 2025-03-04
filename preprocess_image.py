@@ -6,6 +6,27 @@ import requests
 from PIL import Image
 from io import BytesIO
 
+prompt = """
+You are provided with a URL of an image and its existing caption. The current caption describes the main subject of the image and may include relationships between entities in the scene. Your task is to generate a more detailed and precise caption for the image while preserving the relationships described in the existing caption.
+The new caption should:
+1.Retain the relationships and interactions mentioned in the current caption.
+2.Add additional descriptive details about the image, including:
+    A.Background elements (e.g., landscape, weather, environment).
+    B.People (if present): their actions, clothing, or other notable features.
+    C.Geographical location (if identifiable).
+    D.Architecture or structures in the image.
+    E.Any other notable features or objects in the scene.
+3.Focus solely on factual and descriptive content. Avoid including any subjective opinions, interpretations, or assumptions.
+### Example:
+- **Input:**
+  - Current Caption: "A man is walking his dog near a lake."
+- **Output:**
+  - New Caption: "A man wearing a blue jacket is walking his brown dog near a calm lake surrounded by tall pine trees. The sky is clear with a few fluffy white clouds, and there is a wooden bench nearby."
+
+Current Caption: {current_caption}
+Generate a new caption that adheres to the above guidelines.
+"""
+
 def download_image_and_save(url, save_file, save_format="JPEG"):
     """
     从 URL 下载图片并以指定格式保存
@@ -47,8 +68,7 @@ def generate_detailed_caption(img_url, caption):
                 "content": [
                     {
                         "type": "text",
-                        "text": """ You are provided with a URL of an image and its existing caption. The current caption only describes the main subject of the image but lacks detailed information. Your task is to generate a more detailed and precise caption for the image.The new caption should include additional elements such as the background, people (if present), geographical location (if identifiable), architecture, or any other notable features in the image. Ensure that the generated caption is purely objective and does not contain any subjective opinions, interpretations, or assumptions. It should focus on factual and descriptive content only.
-                                    Current Caption: {current_caption}""".format(current_caption=caption)
+                        "text": prompt.format(current_caption=caption)
                     },
                     {
                         "type": "image_url",

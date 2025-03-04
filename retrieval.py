@@ -88,7 +88,7 @@ for key in device_list_a:
 for key in device_list_b:
     device_map[key] = f"cuda:{1}"
 for key in device_list_c:
-    device_map[key] = f"cuda:{3}"
+    device_map[key] = f"cuda:{5}"
 
 
 # load model with tokenizer
@@ -118,24 +118,36 @@ async def encode(text=None, image=None, instruction=None, max_length=4096):
     返回：
         embedding: 计算出的 embedding 向量 (NumPy 数组)
     """
+
     if text is not None and image is None:
         # 文本编码
-        input_data = [{'txt': text}] if isinstance(text, str) else [{'txt': t} for t in text]
+        input_data = []
+        for t in text:
+            tmp = {}
+            if 'txt' in t:
+                tmp['txt'] = t['txt']
+            if 'img' in t:
+                headers = {
+                    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36"
+                }
+                response = requests.get(t['img'], headers=headers, stream=True)
+                tmp['img'] = Image.open(BytesIO(response.content))
+            input_data.append(tmp)
         embeddings = model.encode(input_data, is_query=(instruction is not None), instruction=instruction, max_length=max_length)['hidden_states']
     
-    elif image is not None and text is None:
-        # 图片编码
-        if isinstance(image, str):
-            image = Image.open(image).convert('RGB')
-        input_data = [{'img': image}]
-        embeddings = model.encode(input_data, max_length=max_length)['hidden_states']
+    # elif image is not None and text is None:
+    #     # 图片编码
+    #     if isinstance(image, str):
+    #         image = Image.open(image).convert('RGB')
+    #     input_data = [{'img': image}]
+    #     embeddings = model.encode(input_data, max_length=max_length)['hidden_states']
     
-    elif text is not None and image is not None:
-        # 文本 + 图片联合编码
-        if isinstance(image, str):
-            image = Image.open(image).convert('RGB')
-        input_data = [{'txt': text, 'img': image}]
-        embeddings = model.encode(input_data, max_length=max_length)['hidden_states']
+    # elif text is not None and image is not None:
+    #     # 文本 + 图片联合编码
+    #     if isinstance(image, str):
+    #         image = Image.open(image).convert('RGB')
+    #     input_data = [{'txt': text, 'img': image}]
+    #     embeddings = model.encode(input_data, max_length=max_length)['hidden_states']
     
     else:
         raise ValueError("必须传入 text 或 image 中至少一个参数")

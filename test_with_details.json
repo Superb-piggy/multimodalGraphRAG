@@ -1,254 +1,243 @@
 {
-    "d5c4aef60dba11ecb1e81171463288e9": {
-        "Q": "\"Is there smoke trailing from both the parachuter above Los Angeles at the 2005 Extreme Games and the paraglider in the Bucegi Mountains?\"",
+    "d5bbc6d80dba11ecb1e81171463288e9": {
+        "Q": "\"Are both the National Museum of the American Indian in Washington, D.C. and the Xanadu House in Kissimmee, Florida the same color?\"",
         "A": [
-            ""
+            "\"Yes, both the National Museum of the American Indian in Washington, D.C. and the Xanadu House in Kissimmee, Florida are beige.\""
         ],
-        "split": "test",
-        "Guid": "d5c4aef60dba11ecb1e81171463288e9",
-        "txt_Facts": [
+        "topic": "strange architecture",
+        "split": "train",
+        "Qcate": "YesNo",
+        "Guid": "d5bbc6d80dba11ecb1e81171463288e9",
+        "img_posFacts": [
             {
-                "title": "Los Angeles",
-                "fact": "The eastern end of the Santa Monica Mountains stretches from Downtown to the Pacific Ocean and separates the Los Angeles Basin from the San Fernando Valley.",
-                "url": "https://en.wikipedia.org/wiki/Los_Angeles",
-                "snippet_id": "d5c4aef60dba11ecb1e81171463288e9_0"
+                "image_id": 30321533,
+                "title": "National Museum of the American Indian in Washington, D.C",
+                "caption": "National Museum of the American Indian in Washington, D.C",
+                "url": "https://commons.wikimedia.org/wiki/File:National_Museum_of_the_American_Indian_in_Washington%2C_D.C.jpg",
+                "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/National_Museum_of_the_American_Indian_in_Washington%2C_D.C.jpg/800px-National_Museum_of_the_American_Indian_in_Washington%2C_D.C.jpg",
+                "detailed_caption": "The National Museum of the American Indian in Washington, D.C., stands prominently with its distinctive, modern architecture featuring smooth, flowing lines and a blend of natural stone and glass elements. The building is illuminated by warm lighting, highlighting its curves and textures against the backdrop of a vibrant, reddish-orange sky, suggesting either a sunset or sunrise. The surrounding landscape includes well-maintained greenery and large boulders, contributing to the museum's serene and inviting atmosphere. The entrance is marked by a series of bollards and a paved walkway leading visitors to the grand doors. The overall scene conveys a sense of cultural significance and architectural beauty."
             },
             {
-                "title": "Los Angeles",
-                "fact": "In the early 1900s, the Los Angeles Times advocated for pronouncing it Loce AHNG-hayl-ais (), approximating Spanish [los ˈaŋxeles], by printing the respelling under its masthead for several years. This did not find favor.",
-                "url": "https://en.wikipedia.org/wiki/Los_Angeles",
-                "snippet_id": "d5c4aef60dba11ecb1e81171463288e9_1"
-            },
-            {
-                "title": "Los Angeles",
-                "fact": "The Los Angeles area is also subject to phenomena typical of a microclimate, causing extreme variations in temperature in close physical proximity to each other.",
-                "url": "https://en.wikipedia.org/wiki/Los_Angeles",
-                "snippet_id": "d5c4aef60dba11ecb1e81171463288e9_10"
-            },
-            {
-                "title": "Los Angeles",
-                "fact": "Los Angeles also hosted 8 FIFA World Cup soccer games at the Rose Bowl in 1994, including the final, where Brazil won.",
-                "url": "https://en.wikipedia.org/wiki/Los_Angeles",
-                "snippet_id": "d5c4aef60dba11ecb1e81171463288e9_11"
-            },
-            {
-                "title": "Los Angeles",
-                "fact": "Los Angeles has twice hosted the Summer Olympic Games: in 1932 and in 1984, and will host the games for a third time in 2028.",
-                "url": "https://en.wikipedia.org/wiki/Los_Angeles",
-                "snippet_id": "d5c4aef60dba11ecb1e81171463288e9_12"
-            },
-            {
-                "title": "Los Angeles",
-                "fact": "Los Angeles has twice hosted the Summer Olympic Games: in 1932 and in 1984, and will host the games for a third time in 2028. Los Angeles will be the third city after London (1908, 1948 and 2012) and Paris (1900, 1924 and 2024) to host the Olympic Games three times.",
-                "url": "https://en.wikipedia.org/wiki/Los_Angeles",
-                "snippet_id": "d5c4aef60dba11ecb1e81171463288e9_13"
-            },
-            {
-                "title": "Los Angeles",
-                "fact": "The Forum, SoFi Stadium, Dignity Health Sports Park, the Rose Bowl, Angel Stadium and Honda Center are also in adjacent cities and cities in Los Angeles's metropolitan area. Los Angeles has twice hosted the Summer Olympic Games: in 1932 and in 1984, and will host the games for a third time in 2028.",
-                "url": "https://en.wikipedia.org/wiki/Los_Angeles",
-                "snippet_id": "d5c4aef60dba11ecb1e81171463288e9_14"
-            },
-            {
-                "title": "Los Angeles Lakers",
-                "fact": "Los Angeles stretched its postseason winning streak to nine games by taking the first contest of the NBA Finals from the 76ers.",
-                "url": "https://en.wikipedia.org/wiki/Los_Angeles_Lakers",
-                "snippet_id": "d5c4aef60dba11ecb1e81171463288e9_15"
-            },
-            {
-                "title": "Greater Los Angeles",
-                "fact": "Meanwhile, the San Fernando Valley (\"The Valley\") is defined as the basin consisting of the part of Los Angeles and its suburbs that lie north-northwest of downtown and is ringed by mountains.",
-                "url": "https://en.wikipedia.org/wiki/Greater_Los_Angeles",
-                "snippet_id": "d5c4aef60dba11ecb1e81171463288e9_2"
-            },
-            {
-                "title": "Los Angeles Lakers",
-                "fact": "Los Angeles won 53 games in 1962–63, behind Baylor's 34.0 ppg and West's 27.1 ppg but lost in the NBA Finals in six games to the Celtics.",
-                "url": "https://en.wikipedia.org/wiki/Los_Angeles_Lakers",
-                "snippet_id": "d5c4aef60dba11ecb1e81171463288e9_3"
-            },
-            {
-                "title": "X Games",
-                "fact": "The location of the Winter X Games is in Aspen, Colorado, through 2019, while the location for the Summer X Games has been in Los Angeles, changing to Austin, Texas, in June 2014.",
-                "url": "https://en.wikipedia.org/wiki/X_Games",
-                "snippet_id": "d5c4aef60dba11ecb1e81171463288e9_4"
-            },
-            {
-                "title": "Los Angeles Dodgers",
-                "fact": "Since retirement in 2015, Bea's replacement and current organist is Dieter Ruehle, who also plays at Staples Center for Los Angeles Kings games.",
-                "url": "https://en.wikipedia.org/wiki/Los_Angeles_Dodgers",
-                "snippet_id": "d5c4aef60dba11ecb1e81171463288e9_5"
-            },
-            {
-                "title": "Los Angeles",
-                "fact": "In the early 1900s, the Los Angeles Times advocated for pronouncing it Loce AHNG-hayl-ais (), approximating Spanish [los ˈaŋxeles], by printing the respelling under its masthead for several years.",
-                "url": "https://en.wikipedia.org/wiki/Los_Angeles",
-                "snippet_id": "d5c4aef60dba11ecb1e81171463288e9_6"
-            },
-            {
-                "title": "Greater Los Angeles",
-                "fact": "It is the only American city to host the Olympic games twice: once in 1932, and more recently in 1984. Los Angeles will also be the host of the 2028 Summer Olympics, becoming the third city to host three Olympic Games, after London and Paris.",
-                "url": "https://en.wikipedia.org/wiki/Greater_Los_Angeles",
-                "snippet_id": "d5c4aef60dba11ecb1e81171463288e9_7"
-            },
-            {
-                "title": "Los Angeles Dodgers",
-                "fact": "In just their second season in Los Angeles, the Dodgers won their second World Series title, beating the Chicago White Sox in six games in 1959.",
-                "url": "https://en.wikipedia.org/wiki/Los_Angeles_Dodgers",
-                "snippet_id": "d5c4aef60dba11ecb1e81171463288e9_8"
-            },
-            {
-                "title": "Los Angeles",
-                "fact": "Los Angeles will host the 2028 Summer Olympics and Paralympic Games, making Los Angeles the third city to host the Olympics three times.",
-                "url": "https://en.wikipedia.org/wiki/Los_Angeles",
-                "snippet_id": "d5c4aef60dba11ecb1e81171463288e9_9"
+                "image_id": 30278153,
+                "title": "Xanadu-House-in-Kissimmee-Florida-1985",
+                "caption": "Xanadu-House-in-Kissimmee-Florida-1985 A photo of the Xanadu House that was located in Kissimmee, Florida, showing the exterior of the house.",
+                "url": "https://commons.wikimedia.org/wiki/File:Xanadu-House-in-Kissimmee-Florida-1985.jpg",
+                "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Xanadu-House-in-Kissimmee-Florida-1985.jpg",
+                "detailed_caption": "The Xanadu House in Kissimmee, Florida, captured in 1985, stands out with its unique, futuristic architecture featuring bulbous domes and a tall, slender spire. The house is situated on a landscaped island surrounded by a reflective pond, with lush trees in the background. The black and white photograph highlights the contrast between the smooth, curved surfaces of the house and the natural elements. The serene setting, with the calm water and the tranquil environment, adds to the surreal and artistic ambiance of the scene."
             }
         ],
-        "img_Facts": [
+        "img_negFacts": [
             {
-                "image_id": 30068805,
-                "title": "Francis Crick sculpture - geograph.org.uk - 1411215",
-                "caption": "Francis Crick sculpture - geograph.org.uk - 1411215 Francis Crick sculpture This sculpture, erected in December 2005, is dedicated to Francis Crick who was born in Weston Favell, Northampton and is viewed as one of the greatest British scientists of the 20th century. He was awarded the Nobel Prize in 1962 and the Order of Merit in 1991.",
-                "url": "https://commons.wikimedia.org/wiki/File:Francis_Crick_sculpture_-_geograph.org.uk_-_1411215.jpg",
-                "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Francis_Crick_sculpture_-_geograph.org.uk_-_1411215.jpg/450px-Francis_Crick_sculpture_-_geograph.org.uk_-_1411215.jpg",
-                "detailed_caption": "The Francis Crick sculpture, located in Weston Favell, Northampton, is a prominent feature in the image. It is a modern, abstract representation of the renowned British scientist, capturing his essence through artistic expression. The sculpture is set against a clear blue sky, which enhances its visibility and prominence. The surrounding area appears to be an open space, possibly a public square or park, with no other notable architectural structures or people visible in the immediate vicinity. The sculpture's design is sleek and contemporary, reflecting the scientific and intellectual legacy of Francis Crick."
+                "image_id": 30095223,
+                "title": "National Museum of the American Indian",
+                "caption": "National Museum of the American Indian",
+                "url": "https://commons.wikimedia.org/wiki/File:National_Museum_of_the_American_Indian.jpg",
+                "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/National_Museum_of_the_American_Indian.jpg/450px-National_Museum_of_the_American_Indian.jpg"
             },
             {
-                "image_id": 30079882,
-                "title": "US Navy 050806-N-9769P-003 A Member of the U.S. Navy Parachute Team, the Leap Frogs, descends over downtown Los Angles during the 2005 Extreme Games",
-                "caption": "US Navy 050806-N-9769P-003 A Member of the U.S. Navy Parachute Team, the Leap Frogs, descends over downtown Los Angles during the 2005 Extreme Games Los Angeles (Aug 6, 2005) -",
-                "url": "https://commons.wikimedia.org/wiki/File:US_Navy_050806-N-9769P-003_A_Member_of_the_U.S._Navy_Parachute_Team%2C_the_Leap_Frogs%2C_descends_over_downtown_Los_Angles_during_the_2005_Extreme_Games.jpg",
-                "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/US_Navy_050806-N-9769P-003_A_Member_of_the_U.S._Navy_Parachute_Team%2C_the_Leap_Frogs%2C_descends_over_downtown_Los_Angles_during_the_2005_Extreme_Games.jpg/555px-US_Navy_050806-N-9769P-003_A_Member_of_the_U.S._Navy_Parachute_Team%2C_the_Leap_Frogs%2C_descends_over_downtown_Los_Angles_during_the_2005_Extreme_Games.jpg",
-                "detailed_caption": "A member of the U.S. Navy Parachute Team, the Leap Frogs, descends with a yellow parachute marked \"NAVY\" over downtown Los Angeles. The sky is clear and blue, and the parachutist is surrounded by colorful smoke trails in red, green, and yellow, likely from accompanying aircraft. The event took place during the 2005 Extreme Games Los Angeles on August 6, 2005."
+                "image_id": 30388945,
+                "title": "Xanadu - futuristic architecture",
+                "caption": "Xanadu - futuristic architecture Xanadu House Interior",
+                "url": "https://commons.wikimedia.org/wiki/File:Xanadu_-_futuristic_architecture.jpg",
+                "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Xanadu_-_futuristic_architecture.jpg/800px-Xanadu_-_futuristic_architecture.jpg"
             },
             {
-                "image_id": 30094775,
-                "title": "Extreme sports",
-                "caption": "Extreme sports Paragliding in Bucegi Mountains",
-                "url": "https://commons.wikimedia.org/wiki/File:Extreme_sports.jpg",
-                "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Extreme_sports.jpg/800px-Extreme_sports.jpg",
-                "detailed_caption": "A paraglider soars above the Bucegi Mountains, with a vibrant pink canopy contrasting against the clear blue sky. The landscape below is a mix of rugged terrain and dense clouds, creating a dramatic backdrop. The scene captures the thrill and beauty of paragliding in a remote and picturesque location."
+                "image_id": 30364890,
+                "title": "No Caption. (Monitor \"Saugus\" on the James River, VA.) - NARA - 529196.tif",
+                "caption": "No Caption. (Monitor \"Saugus\" on the James River, VA.) - NARA - 529196.tif",
+                "url": "https://commons.wikimedia.org/wiki/File:No_Caption._(Monitor_%22Saugus%22_on_the_James_River%2C_VA.)_-_NARA_-_529196.tif",
+                "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/No_Caption._(Monitor_%22Saugus%22_on_the_James_River%2C_VA.)_-_NARA_-_529196.tif/lossy-page1-1200px-No_Caption._(Monitor_%22Saugus%22_on_the_James_River%2C_VA.)_-_NARA_-_529196.tif.jpg"
             },
             {
-                "image_id": 30103666,
-                "title": "Alanya Parasailing",
-                "caption": "Alanya Parasailing Parasailing in Alanya, Antalya.",
-                "url": "https://commons.wikimedia.org/wiki/File:Alanya_Parasailing.jpg",
-                "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Alanya_Parasailing.jpg/384px-Alanya_Parasailing.jpg",
-                "detailed_caption": "Parasailing in Alanya, Antalya, with a vibrant, multi-colored parachute soaring against a clear blue sky. The scene captures the thrill of the activity, with two individuals securely harnessed and enjoying the aerial view. The backdrop features a serene coastline, hinting at the Mediterranean's picturesque landscape."
+                "image_id": 30199172,
+                "title": "Replica of a 18th century baking oven, Kleinplasie Open Air Agricultural Museum and Show Grounds, Worcester, South Africa 01",
+                "caption": "Replica of a 18th century baking oven, Kleinplasie Open Air Agricultural Museum and Show Grounds, Worcester, South Africa 01 Replica of a 18th century outdoor baking oven typical of early Cape homesteads. Made of clay and bricks.",
+                "url": "https://commons.wikimedia.org/wiki/File:Replica_of_a_18th_century_baking_oven%2C_Kleinplasie_Open_Air_Agricultural_Museum_and_Show_Grounds%2C_Worcester%2C_South_Africa_01.jpg",
+                "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Replica_of_a_18th_century_baking_oven%2C_Kleinplasie_Open_Air_Agricultural_Museum_and_Show_Grounds%2C_Worcester%2C_South_Africa_01.jpg/640px-Replica_of_a_18th_century_baking_oven%2C_Kleinplasie_Open_Air_Agricultural_Museum_and_Show_Grounds%2C_Worcester%2C_South_Africa_01.jpg"
             },
             {
-                "image_id": 30117211,
-                "title": "A U.S. Soldier assigned to the 173rd Infantry Brigade Combat Team conducts a training jump from a CH-47 Chinook helicopter into Bunker Drop Zone at the 7th Army Joint Multinational Training Command's Grafenwoehr 131112-A-UP200-231",
-                "caption": "A U.S. Soldier assigned to the 173rd Infantry Brigade Combat Team conducts a training jump from a CH-47 Chinook helicopter into Bunker Drop Zone at the 7th Army Joint Multinational Training Command's Grafenwoehr 131112-A-UP200-231 A U.S. Soldier assigned to the 173rd Infantry Brigade Combat Team conducts a training jump from a CH-47 Chinook helicopter into Bunker Drop Zone at the 7th Army Joint Multinational Training Command's Grafenwoehr Training Area in Grafenwoehr, Germany, Nov. 12, 2013, as part of Joint Multinational Readiness Center (JMRC) 14-01A. JMRC provides U.S. and European partner military units and personnel with realistic pre-deployment training scenarios in all aspects of armed conflict.",
-                "url": "https://commons.wikimedia.org/wiki/File:A_U.S._Soldier_assigned_to_the_173rd_Infantry_Brigade_Combat_Team_conducts_a_training_jump_from_a_CH-47_Chinook_helicopter_into_Bunker_Drop_Zone_at_the_7th_Army_Joint_Multinational_Training_Command's_Grafenwoehr_131112-A-UP200-231.jpg",
-                "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/A_U.S._Soldier_assigned_to_the_173rd_Infantry_Brigade_Combat_Team_conducts_a_training_jump_from_a_CH-47_Chinook_helicopter_into_Bunker_Drop_Zone_at_the_7th_Army_Joint_Multinational_Training_Command's_Grafenwoehr_131112-A-UP200-231.jpg/793px-thumbnail.jpg",
-                "detailed_caption": "A U.S. Soldier from the 173rd Infantry Brigade Combat Team is captured mid-air during a training jump from a CH-47 Chinook helicopter, descending into Bunker Drop Zone at the 7th Army Joint Multinational Training Command's Grafenwoehr Training Area in Grafenwoehr, Germany. The image, taken on November 12, 2013, during Joint Multinational Readiness Center (JMRC) 14-01A, showcases the soldier's parachute deployed against a clear blue sky, highlighting the precision and coordination of military training exercises."
+                "image_id": 30264287,
+                "title": "ChapelOfSainPaul night Damascus Syria",
+                "caption": "ChapelOfSainPaul night Damascus Syria Chapel of Saint Paul by night, Damascus, Syria.",
+                "url": "https://commons.wikimedia.org/wiki/File:ChapelOfSainPaul_night_Damascus_Syria.jpg",
+                "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6b/ChapelOfSainPaul_night_Damascus_Syria.jpg"
             },
             {
-                "image_id": 30126526,
-                "title": "Demoiselle replica",
-                "caption": "Demoiselle replica Santos-Dumont Demoiselle replica in flight",
-                "url": "https://commons.wikimedia.org/wiki/File:Demoiselle_replica.jpg",
-                "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Demoiselle_replica.jpg",
-                "detailed_caption": "A Demoiselle replica Santos-Dumont Demoiselle aircraft is captured in flight against a backdrop of a clear blue sky with scattered white clouds. The aircraft features a single propeller, a fabric-covered wing structure, and a tail section with a vertical stabilizer. The pilot, seated in an open cockpit, is wearing a helmet and is positioned beneath the wing. The aircraft's design is reminiscent of early 20th-century aviation."
+                "image_id": 30111789,
+                "title": "Richterin talo, Turku. Kuvaaja HJ. Renvall 1914, arkisto Turun museokeskus.",
+                "caption": "Richterin talo, Turku. Kuvaaja HJ. Renvall 1914, arkisto Turun museokeskus. Turku, Finland.",
+                "url": "https://commons.wikimedia.org/wiki/File:Richterin_talo%2C_Turku._Kuvaaja_HJ._Renvall_1914%2C_arkisto_Turun_museokeskus..jpg",
+                "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Richterin_talo%2C_Turku._Kuvaaja_HJ._Renvall_1914%2C_arkisto_Turun_museokeskus..jpg/800px-Richterin_talo%2C_Turku._Kuvaaja_HJ._Renvall_1914%2C_arkisto_Turun_museokeskus..jpg"
             },
             {
-                "image_id": 30163560,
-                "title": "SportsPhotographer",
-                "caption": "SportsPhotographer",
-                "url": "https://commons.wikimedia.org/wiki/File:SportsPhotographer.jpg",
-                "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/SportsPhotographer.jpg/428px-SportsPhotographer.jpg",
-                "detailed_caption": "A sports photographer is capturing images on a grassy field, equipped with a large telephoto lens mounted on a tripod. The photographer is wearing a black and white shirt, khaki shorts, and brown shoes. In the background, there is another individual dressed in a white uniform with striped socks and a red cap, possibly an umpire or referee. The field is marked with white lines and there are green hedges or bushes in the distance."
+                "image_id": 30272499,
+                "title": "Centennial Hangar, Wright Brothers National Memorial, Kill Devil Hills, North Carolina (14443981511)",
+                "caption": "Centennial Hangar, Wright Brothers National Memorial, Kill Devil Hills, North Carolina (14443981511)",
+                "url": "https://commons.wikimedia.org/wiki/File:Centennial_Hangar%2C_Wright_Brothers_National_Memorial%2C_Kill_Devil_Hills%2C_North_Carolina_(14443981511).jpg",
+                "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Centennial_Hangar%2C_Wright_Brothers_National_Memorial%2C_Kill_Devil_Hills%2C_North_Carolina_(14443981511).jpg/1200px-Centennial_Hangar%2C_Wright_Brothers_National_Memorial%2C_Kill_Devil_Hills%2C_North_Carolina_(14443981511).jpg"
             },
             {
-                "image_id": 30186749,
-                "title": "U.S. Marines with the 26th Marine Expeditionary Unit's Maritime Raid Force navigate their way to a landing zone during parachute operations at King Faisal Air Base in Jordan June 12, 2013, during exercise Eager 130612-M-SO289-006",
-                "caption": "U.S. Marines with the 26th Marine Expeditionary Unit's Maritime Raid Force navigate their way to a landing zone during parachute operations at King Faisal Air Base in Jordan June 12, 2013, during exercise Eager 130612-M-SO289-006 U.S. Marines with the 26th Marine Expeditionary Unit's Maritime Raid Force navigate their way to a landing zone during parachute operations at King Faisal Air Base in Jordan June 12, 2013, during exercise Eager Lion 2013.",
-                "url": "https://commons.wikimedia.org/wiki/File:U.S._Marines_with_the_26th_Marine_Expeditionary_Unit's_Maritime_Raid_Force_navigate_their_way_to_a_landing_zone_during_parachute_operations_at_King_Faisal_Air_Base_in_Jordan_June_12%2C_2013%2C_during_exercise_Eager_130612-M-SO289-006.jpg",
-                "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/U.S._Marines_with_the_26th_Marine_Expeditionary_Unit's_Maritime_Raid_Force_navigate_their_way_to_a_landing_zone_during_parachute_operations_at_King_Faisal_Air_Base_in_Jordan_June_12%2C_2013%2C_during_exercise_Eager_130612-M-SO289-006.jpg/800px-thumbnail.jpg",
-                "detailed_caption": "U.S. Marines with the 26th Marine Expeditionary Unit's Maritime Raid Force are seen descending with parachutes against a clear blue sky, indicating a successful parachute operation. The Marines are equipped with full gear, including helmets and tactical vests, and are navigating towards a landing zone at King Faisal Air Base in Jordan. The image captures the precise moment during exercise Eager Lion 2013, showcasing the coordination and skill of the Marines as they prepare for landing."
+                "image_id": 30281363,
+                "title": "京華城百貨公司 Core Pacific City Co., Ltd. - panoramio - Tianmu peter (3)",
+                "caption": "京華城百貨公司 Core Pacific City Co., Ltd. - panoramio - Tianmu peter (3)",
+                "url": "https://commons.wikimedia.org/wiki/File:%E4%BA%AC%E8%8F%AF%E5%9F%8E%E7%99%BE%E8%B2%A8%E5%85%AC%E5%8F%B8_Core_Pacific_City_Co.%2C_Ltd._-_panoramio_-_Tianmu_peter_(3).jpg",
+                "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/%E4%BA%AC%E8%8F%AF%E5%9F%8E%E7%99%BE%E8%B2%A8%E5%85%AC%E5%8F%B8_Core_Pacific_City_Co.%2C_Ltd._-_panoramio_-_Tianmu_peter_(3).jpg/1200px-%E4%BA%AC%E8%8F%AF%E5%9F%8E%E7%99%BE%E8%B2%A8%E5%85%AC%E5%8F%B8_Core_Pacific_City_Co.%2C_Ltd._-_panoramio_-_Tianmu_peter_(3).jpg"
             },
             {
-                "image_id": 30218638,
-                "title": "Atlantic bathymetry",
-                "caption": "Atlantic bathymetry The Atlantic Ocean.",
-                "url": "https://commons.wikimedia.org/wiki/File:Atlantic_bathymetry.jpg",
-                "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Atlantic_bathymetry.jpg/438px-Atlantic_bathymetry.jpg",
-                "detailed_caption": "The image depicts a detailed bathymetric map of the Atlantic Ocean, showcasing the underwater topography with varying color gradients. The map highlights the ocean floor, including ridges, trenches, and continental shelves. The continents of North and South America are visible on the left, while Europe and Africa are on the right. The color scheme uses blues to represent deeper ocean areas and greens to indicate shallower regions, with reds and yellows highlighting the continental margins and underwater mountain ranges. The map provides a comprehensive view of the ocean's depth and structure, illustrating the dynamic geological features beneath the surface."
+                "image_id": 30005083,
+                "title": "Exterior view of the Andrew McNally residence from a path and archway, Altadena, ca.1900 (CHS-260)",
+                "caption": "Exterior view of the Andrew McNally residence from a path and archway, Altadena, ca.1900 (CHS-260) Exterior view of the Andrew McNally residence from a path and archway, Altadena, ca.1900",
+                "url": "https://commons.wikimedia.org/wiki/File:Exterior_view_of_the_Andrew_McNally_residence_from_a_path_and_archway%2C_Altadena%2C_ca.1900_(CHS-260).jpg",
+                "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Exterior_view_of_the_Andrew_McNally_residence_from_a_path_and_archway%2C_Altadena%2C_ca.1900_(CHS-260).jpg/1200px-Exterior_view_of_the_Andrew_McNally_residence_from_a_path_and_archway%2C_Altadena%2C_ca.1900_(CHS-260).jpg"
             },
             {
-                "image_id": 30235730,
-                "title": "Paragliding in Prizren",
-                "caption": "Paragliding in Prizren Taken in Skorobisht village near Prizren",
-                "url": "https://commons.wikimedia.org/wiki/File:Paragliding_in_Prizren.jpg",
-                "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Paragliding_in_Prizren.jpg/800px-Paragliding_in_Prizren.jpg",
-                "detailed_caption": "The image captures a group of paragliders taking off from a grassy hillside in the Skorobisht village near Prizren. The paragliders are seen with their colorful canopies, including shades of blue, red, and orange, against a backdrop of a clear blue sky. The landscape below features rolling hills and distant mountains, providing a scenic view. The paragliders are in various stages of takeoff, with some already airborne and others preparing to launch. The scene is set in a rural area, highlighting the natural beauty and open spaces ideal for paragliding activities."
+                "image_id": 30240273,
+                "title": "Recherswil Isler-Schale 02 09",
+                "caption": "Recherswil Isler-Schale 02 09 Isler shell, concrete dome roof of a building of the former company Kilcher in Recherswil, built 1965; Solothurn, Switzerland.",
+                "url": "https://commons.wikimedia.org/wiki/File:Recherswil_Isler-Schale_02_09.jpg",
+                "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Recherswil_Isler-Schale_02_09.jpg/640px-Recherswil_Isler-Schale_02_09.jpg"
             },
             {
-                "image_id": 30239577,
-                "title": "Vôo de Parapente",
-                "caption": "Vôo de Parapente",
-                "url": "https://commons.wikimedia.org/wiki/File:V%C3%B4o_de_Parapente.jpg",
-                "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/V%C3%B4o_de_Parapente.jpg/1024px-V%C3%B4o_de_Parapente.jpg",
-                "detailed_caption": "Two paragliders are soaring above a lush, hilly landscape with dense greenery and scattered trees. The paragliders are positioned at different altitudes, with one slightly higher than the other. The paragliders' wings are vibrant, with one being predominantly red and the other a mix of red and white. The background features rolling hills and a distant view of a valley, suggesting a rural or mountainous area. The scene captures the thrill and freedom of paragliding amidst a serene natural setting."
+                "image_id": 30202982,
+                "title": "Brentwood, Los Angeles, CA 90049, USA - panoramio (11)",
+                "caption": "Brentwood, Los Angeles, CA 90049, USA - panoramio (11)",
+                "url": "https://commons.wikimedia.org/wiki/File:Brentwood%2C_Los_Angeles%2C_CA_90049%2C_USA_-_panoramio_%2811%29.jpg",
+                "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Brentwood%2C_Los_Angeles%2C_CA_90049%2C_USA_-_panoramio_%2811%29.jpg/1024px-Brentwood%2C_Los_Angeles%2C_CA_90049%2C_USA_-_panoramio_%2811%29.jpg"
             },
             {
-                "image_id": 30268321,
-                "title": "NZ200315 Kawarau Gorge Bridge 03",
-                "caption": "NZ200315 Kawarau Gorge Bridge 03 Bungee jumping off the Kawarau Gorge Suspension Bridge near Queenstown, New Zealand",
-                "url": "https://commons.wikimedia.org/wiki/File:NZ200315_Kawarau_Gorge_Bridge_03.jpg",
-                "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/NZ200315_Kawarau_Gorge_Bridge_03.jpg/399px-NZ200315_Kawarau_Gorge_Bridge_03.jpg",
-                "detailed_caption": "A person is bungee jumping off the Kawarau Gorge Suspension Bridge near Queenstown, New Zealand. The individual is suspended mid-air, upside down, with their legs bent and arms extended. The background features lush green foliage, indicating a forested area. The bridge is not visible in the image, but the bungee cord is clearly attached to the jumper's ankles. The scene captures the thrilling moment of the jump, with sunlight filtering through the trees, creating a dynamic and adventurous atmosphere."
+                "image_id": 30059273,
+                "title": "Arheo Muz SK (4)",
+                "caption": "Arheo Muz SK (4)  Archeological Museum of Macedonia in Skopje, Macedonia",
+                "url": "https://commons.wikimedia.org/wiki/File:Arheo_Muz_SK_(4).JPG",
+                "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Arheo_Muz_SK_(4).JPG/1200px-Arheo_Muz_SK_(4).JPG"
             },
             {
-                "image_id": 30332088,
-                "title": "Alpinism in Prapastii",
-                "caption": "Alpinism in Prapastii",
-                "url": "https://commons.wikimedia.org/wiki/File:Alpinism_in_Prapastii.jpg",
-                "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Alpinism_in_Prapastii.jpg/800px-Alpinism_in_Prapastii.jpg",
-                "detailed_caption": "A climber is ascending a steep rock face in the Prapastii region. The individual is wearing a blue tank top, dark pants with a white stripe, and climbing shoes. They are using a rope for safety, which is secured to their harness. The rock surface is rugged and textured, with various holds and cracks for gripping. The climber's hair is tied back, and they are focused on their ascent. The surrounding environment appears to be a natural, outdoor setting with no visible signs of urban architecture or man-made structures."
+                "image_id": 30248590,
+                "title": "LGI Brotherton Wing 002",
+                "caption": "LGI Brotherton Wing 002 Balconies at the Southern end of the Brotherton Wing at the Leeds General Infirmary. Taken on the afternoon of Saturday the 3rd of October 2009.",
+                "url": "https://commons.wikimedia.org/wiki/File:LGI_Brotherton_Wing_002.jpg",
+                "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/LGI_Brotherton_Wing_002.jpg/450px-LGI_Brotherton_Wing_002.jpg"
             },
             {
-                "image_id": 30343649,
-                "title": "Extreme sunset",
-                "caption": "Extreme sunset",
-                "url": "https://commons.wikimedia.org/wiki/File:Extreme_sunset.jpg",
-                "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Extreme_sunset.jpg/800px-Extreme_sunset.jpg",
-                "detailed_caption": "The image captures a dramatic sunset over a vast body of water, with the sun positioned centrally in the sky, casting a golden glow across the scene. The sky is filled with scattered clouds, reflecting the warm hues of the setting sun. In the foreground, a person is engaged in kiteboarding, with a large kite soaring above them, silhouetted against the bright sun. The water below is calm, with gentle ripples reflecting the colors of the sky. The horizon is visible, separating the water from the sky, and the overall atmosphere is serene and picturesque."
+                "image_id": 30146167,
+                "title": "Homage to Kaiser Leopold I on August 7, 1658, by Ruprecht Hauer, 1658, oil on canvas - Stadtmuseum Fembohaus - Nuremberg, Germany - DSC02050",
+                "caption": "Homage to Kaiser Leopold I on August 7, 1658, by Ruprecht Hauer, 1658, oil on canvas - Stadtmuseum Fembohaus - Nuremberg, Germany - DSC02050 Exhibit in the Stadtmuseum Fembohaus - Nuremberg, Germany.",
+                "url": "https://commons.wikimedia.org/wiki/File:Homage_to_Kaiser_Leopold_I_on_August_7%2C_1658%2C_by_Ruprecht_Hauer%2C_1658%2C_oil_on_canvas_-_Stadtmuseum_Fembohaus_-_Nuremberg%2C_Germany_-_DSC02050.jpg",
+                "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Homage_to_Kaiser_Leopold_I_on_August_7%2C_1658%2C_by_Ruprecht_Hauer%2C_1658%2C_oil_on_canvas_-_Stadtmuseum_Fembohaus_-_Nuremberg%2C_Germany_-_DSC02050.jpg"
             },
             {
-                "image_id": 30347351,
-                "title": "A U.S. Soldier assigned to the 173rd Infantry Brigade Combat Team conducts a training jump from a CH-47 Chinook helicopter into Bunker Drop Zone at the 7th Army Joint Multinational Training Command's Grafenwoehr 131112-A-UP200-231",
-                "caption": "A U.S. Soldier assigned to the 173rd Infantry Brigade Combat Team conducts a training jump from a CH-47 Chinook helicopter into Bunker Drop Zone at the 7th Army Joint Multinational Training Command's Grafenwoehr 131112-A-UP200-231 A U.S. Soldier assigned to the 173rd Infantry Brigade Combat Team conducts a training jump from a CH-47 Chinook helicopter into Bunker Drop Zone at the 7th Army Joint Multinational Training Command's Grafenwoehr Training Area in Grafenwoehr, Germany, Nov. 12, 2013, as part of Joint Multinational Readiness Center (JMRC) 14-01A. JMRC provides U.S. and European partner military units and personnel with realistic pre-deployment training scenarios in all aspects of armed conflict.",
-                "url": "https://commons.wikimedia.org/wiki/File:A_U.S._Soldier_assigned_to_the_173rd_Infantry_Brigade_Combat_Team_conducts_a_training_jump_from_a_CH-47_Chinook_helicopter_into_Bunker_Drop_Zone_at_the_7th_Army_Joint_Multinational_Training_Command's_Grafenwoehr_131112-A-UP200-231.jpg",
-                "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/A_U.S._Soldier_assigned_to_the_173rd_Infantry_Brigade_Combat_Team_conducts_a_training_jump_from_a_CH-47_Chinook_helicopter_into_Bunker_Drop_Zone_at_the_7th_Army_Joint_Multinational_Training_Command's_Grafenwoehr_131112-A-UP200-231.jpg/1016px-thumbnail.jpg",
-                "detailed_caption": "A U.S. Soldier from the 173rd Infantry Brigade Combat Team is seen mid-air, descending with a parachute attached to a CH-47 Chinook helicopter. The soldier is part of a training exercise conducted at the Bunker Drop Zone within the 7th Army Joint Multinational Training Command's Grafenwoehr Training Area in Grafenwoehr, Germany, on November 12, 2013. The sky is clear and blue, providing a stark contrast to the soldier's descent. The training is part of the Joint Multinational Readiness Center's (JMRC) 14-01A, which offers realistic pre-deployment training scenarios for U.S. and European military units."
+                "image_id": 30038588,
+                "title": "Jonesboro, AR 013",
+                "caption": "Jonesboro, AR 013 Anchor from a former battleship on courthouse grounds",
+                "url": "https://commons.wikimedia.org/wiki/File:Jonesboro%2C_AR_013.jpg",
+                "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Jonesboro%2C_AR_013.jpg/1200px-Jonesboro%2C_AR_013.jpg"
             },
             {
-                "image_id": 30352725,
-                "title": "Norfolk UK local election results 2011 map.svg",
-                "caption": "Norfolk UK local election results 2011 map.svg Results of all District, Borough and City Council elections held in May 2011. Colours: Conservative Liberal Democrat Labour Green Independent (politician) UKIP Wards not being contested at these elections Striped wards have mixed representation.",
-                "url": "https://commons.wikimedia.org/wiki/File:Norfolk_UK_local_election_results_2011_map.svg",
-                "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Norfolk_UK_local_election_results_2011_map.svg/800px-Norfolk_UK_local_election_results_2011_map.svg.png",
-                "detailed_caption": "The image is a detailed political map illustrating the results of the 2011 local elections in Norfolk, UK. The map is divided into various colored sections, each representing different political parties. Predominantly blue areas indicate Conservative party victories, while yellow sections represent Liberal Democrat wins. Red areas signify Labour party success, green indicates Green party representation, and areas with diagonal stripes denote mixed representation. The map also includes a small black section, which might represent a different political party or a special election status. The background is a light blue color, likely representing water bodies or non-election areas. The map provides a comprehensive visual representation of the political landscape in Norfolk during the specified election period."
-            },
-            {
-                "image_id": 30378073,
-                "title": "Windsurf",
-                "caption": "Windsurf",
-                "url": "https://commons.wikimedia.org/wiki/File:Windsurf.JPG",
-                "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Windsurf.JPG/800px-Windsurf.JPG",
-                "detailed_caption": "Two individuals are windsurfing on a calm, turquoise sea. Each person is balancing on a surfboard while holding onto a sail, which is attached to a mast. The sails are predominantly transparent with red and yellow accents. The sky is clear and blue, indicating a sunny day. The water is relatively smooth, suggesting mild wind conditions. There are no visible landmarks or identifiable geographical features in the image."
-            },
-            {
-                "image_id": 30389362,
-                "title": "Military parachuting in Argentina",
-                "caption": "Military parachuting in Argentina",
-                "url": "https://commons.wikimedia.org/wiki/File:Military_parachuting_in_Argentina.jpg",
-                "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Military_parachuting_in_Argentina.jpg/800px-Military_parachuting_in_Argentina.jpg",
-                "detailed_caption": "A parachutist descends with an Argentine flag attached to their parachute, against a clear blue sky. The parachutist is wearing a camouflage uniform and appears to be in mid-air, with the flag unfurled and prominent. The scene suggests a ceremonial or patriotic event, possibly taking place in an open area suitable for parachuting."
+                "image_id": 30220639,
+                "title": "Academy of sciences canberra ACT",
+                "caption": "Academy of sciences canberra ACT Shine Dome of the Australian Academy of Science at Canberra ACT. I took the photo",
+                "url": "https://commons.wikimedia.org/wiki/File:Academy_of_sciences_canberra_ACT.jpg",
+                "imgUrl": "http://upload.wikimedia.org/wikipedia/commons/3/3a/Academy_of_sciences_canberra_ACT.jpg"
             }
-        ]
+        ],
+        "txt_negFacts": [
+            {
+                "title": "Xanadu Houses",
+                "fact": "Construction of the Xanadu house in Kissimmee, Florida, began with the pouring of a concrete slab base and the erection of a tension ring 40 feet (12 m) in diameter to anchor the domed roof of what would become the \"Great Room\" of the house.",
+                "url": "https://en.wikipedia.org/wiki/Xanadu_Houses",
+                "snippet_id": "d5bbc6d80dba11ecb1e81171463288e9_6"
+            },
+            {
+                "title": "Xanadu Houses",
+                "fact": "The Xanadu house in Kissimmee, Florida used an automated system controlled by Commodore microcomputers. The house had fifteen rooms; of these the kitchen, party room, health spa, and bedrooms all used computers and other electronic equipment heavily in their design.",
+                "url": "https://en.wikipedia.org/wiki/Xanadu_Houses",
+                "snippet_id": "d5bbc6d80dba11ecb1e81171463288e9_7"
+            },
+            {
+                "title": "Booker T. Washington",
+                "fact": "In 1946, he was honored on the first coin to feature an African American, the Booker T. Washington Memorial Half Dollar, which was minted by the United States until 1951.On April 5, 1956, the hundredth anniversary of Washington's birth, the house where he was born in Franklin County, Virginia, was designated as the Booker T. Washington National Monument.",
+                "url": "https://en.wikipedia.org/wiki/Booker_T._Washington",
+                "snippet_id": "d5bbc6d80dba11ecb1e81171463288e9_13"
+            },
+            {
+                "title": "National Building Museum",
+                "fact": "The National Building Museum is located at 401 F Street NW in Washington, D.C.   It is a museum of \"architecture, design, engineering, construction, and urban planning\".",
+                "url": "https://en.wikipedia.org/wiki/National_Building_Museum",
+                "snippet_id": "d5bbc6d80dba11ecb1e81171463288e9_14"
+            },
+            {
+                "title": "National Air and Space Museum",
+                "fact": "The National Air and Space Museum of the Smithsonian Institution, also called the Air and Space Museum, is a museum in Washington, D.C., US. It was established in 1946 as the National Air Museum and opened its main building on the National Mall near L'Enfant Plaza in 1976.",
+                "url": "https://en.wikipedia.org/wiki/National_Air_and_Space_Museum",
+                "snippet_id": "d5bbc6d80dba11ecb1e81171463288e9_11"
+            },
+            {
+                "title": "Native Americans in the United States",
+                "fact": "Most American Indians are comfortable with Indian, American Indian, and Native American. That term is reflected in the name chosen for the National Museum of the American Indian, which opened in 2004 on the Mall in Washington, DC.",
+                "url": "https://en.wikipedia.org/wiki/Native_Americans_in_the_United_States",
+                "snippet_id": "d5bbc6d80dba11ecb1e81171463288e9_12"
+            },
+            {
+                "title": "National Air and Space Museum",
+                "fact": "The National Air and Space Museum of the Smithsonian Institution, also called the Air and Space Museum, is a museum in Washington, D.C., US.",
+                "url": "https://en.wikipedia.org/wiki/National_Air_and_Space_Museum",
+                "snippet_id": "d5bbc6d80dba11ecb1e81171463288e9_1"
+            },
+            {
+                "title": "Xanadu Houses",
+                "fact": "The interior of the house was cave-like, featuring cramped rooms and low ceilings, although it is not clear whether these accounts describe the same Xanadu House with a thirty-foot dome. The interiors used a cream color for the walls, and a pale green for the floor.",
+                "url": "https://en.wikipedia.org/wiki/Xanadu_Houses",
+                "snippet_id": "d5bbc6d80dba11ecb1e81171463288e9_9"
+            },
+            {
+                "title": "The Washington Post",
+                "fact": "The Washington Post (also known as the Post and, informally, WaPo) is an American daily newspaper published in Washington, D.C. It is the most-widely circulated newspaper within the Washington metropolitan area, and has a large national audience.",
+                "url": "https://en.wikipedia.org/wiki/The_Washington_Post",
+                "snippet_id": "d5bbc6d80dba11ecb1e81171463288e9_2"
+            },
+            {
+                "title": "Native Americans in the United States",
+                "fact": "That term is reflected in the name chosen for the National Museum of the American Indian, which opened in 2004 on the Mall in Washington, DC.",
+                "url": "https://en.wikipedia.org/wiki/Native_Americans_in_the_United_States",
+                "snippet_id": "d5bbc6d80dba11ecb1e81171463288e9_15"
+            },
+            {
+                "title": "Washington, D.C.",
+                "fact": "The Smithsonian American Art Museum and the National Portrait Gallery are housed in the Old Patent Office Building, near Washington's Chinatown. The Renwick Gallery is officially part of the Smithsonian American Art Museum but is in a separate building near the White House.",
+                "url": "https://en.wikipedia.org/wiki/Washington,_D.C.",
+                "snippet_id": "d5bbc6d80dba11ecb1e81171463288e9_5"
+            },
+            {
+                "title": "Xanadu Houses",
+                "fact": "It had at least two entrances, and large porthole-type windows. The interior of the house was cave-like, featuring cramped rooms and low ceilings, although it is not clear whether these accounts describe the same Xanadu House with a thirty-foot dome.",
+                "url": "https://en.wikipedia.org/wiki/Xanadu_Houses",
+                "snippet_id": "d5bbc6d80dba11ecb1e81171463288e9_10"
+            },
+            {
+                "title": "History of American Indian schools",
+                "fact": "Investigations of the later twentieth century have revealed many documented cases of sexual, manual, physical and mental abuse occurring mostly in church-run schools. The National Museum of the American Indian also notes that some students had good memories of their school days, having learned skills and made lifelong friends.",
+                "url": "https://en.wikipedia.org/wiki/History_of_American_Indian_schools",
+                "snippet_id": "d5bbc6d80dba11ecb1e81171463288e9_8"
+            },
+            {
+                "title": "National Building Museum",
+                "fact": "The building itself was formally renamed the National Building Museum in 1997.Every year, the annual Christmas in Washington program was filmed at the museum, with the President and First Lady until the show's cancellation in 2015.",
+                "url": "https://en.wikipedia.org/wiki/National_Building_Museum",
+                "snippet_id": "d5bbc6d80dba11ecb1e81171463288e9_3"
+            },
+            {
+                "title": "Washington, D.C.",
+                "fact": "The Renwick Gallery is officially part of the Smithsonian American Art Museum but is in a separate building near the White House. Other Smithsonian museums and galleries include: the Anacostia Community Museum in Southeast Washington; the National Postal Museum near Union Station; and the National Zoo in Woodley Park.",
+                "url": "https://en.wikipedia.org/wiki/Washington,_D.C.",
+                "snippet_id": "d5bbc6d80dba11ecb1e81171463288e9_0"
+            },
+            {
+                "title": "Xanadu Houses",
+                "fact": "The interior of the house was cave-like, featuring cramped rooms and low ceilings, although it is not clear whether these accounts describe the same Xanadu House with a thirty-foot dome.",
+                "url": "https://en.wikipedia.org/wiki/Xanadu_Houses",
+                "snippet_id": "d5bbc6d80dba11ecb1e81171463288e9_4"
+            }
+        ],
+        "txt_posFacts": []
     }
 }
